@@ -22,6 +22,11 @@ x = "helloworld"
 
 print(x.lower())
 
-x = "helloworld"
+x = "hello world this is a string"
 
 print(x.split())
+
+x = "hello world this is a string and a string"
+
+print(x.split())
+
