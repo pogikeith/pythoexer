@@ -1,0 +1,6 @@
+%%writefile myfile.try:
+    this is a text file 
+except expression as identifier:
+    pass
+
+    
