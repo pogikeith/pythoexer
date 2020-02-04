@@ -26,3 +26,13 @@ print(mystring[::3])
 
 mystring = 'abcdefg'
 print(mystring[::-1])
+
+k = 'hello'
+print(k[1])
+
+k = 'hello'
+print(k[::-1])
+
+k = 'hello'
+print(k[-1])
+print(k[4])

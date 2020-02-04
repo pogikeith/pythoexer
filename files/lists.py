@@ -47,3 +47,7 @@ print(numb_list)
 print(numb_list.reverse())
 print(numb_list)
 
+
+list3 = [1,2,[3,4, 'hello']]
+list3[2][2] = 'goodbye'
+print(list3)
