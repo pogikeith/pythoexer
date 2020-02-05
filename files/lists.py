@@ -51,3 +51,9 @@ print(numb_list)
 list3 = [1,2,[3,4, 'hello']]
 list3[2][2] = 'goodbye'
 print(list3)
+
+list4 = [1,2,3,4]
+print(sorted(list4))
+
+list5 = [1,2,3,44,3,22,5,6,7,2,3,4]
+print(set(list5))

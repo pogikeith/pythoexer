@@ -8,3 +8,9 @@ print(d['key1'])
 
 d ['key1'] = 'new value'
 print(d)
+
+e= {'simple_key' : 'hello'}
+print(e['simple_key'])
+
+k= {'k1':{'k2' : 'hello'}}
+print(k['k1']['k2'])
