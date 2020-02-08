@@ -42,3 +42,16 @@ for letter in 'hello world':
     print(letter)
 
 
+
+tup = (1,2,3)
+for item in tup:
+    print(item)
+
+
+
+mylist= [(1,2), (3,4),(5,6),(7,8)]
+len(mylist)
+for item in mylist:
+    print(item)
+
+
