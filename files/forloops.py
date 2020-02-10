@@ -103,7 +103,7 @@ for values in d.values():
     print(value)
 
 
-
+print(set([1,1,2,3]))
 
 
 
