@@ -55,3 +55,57 @@ for item in mylist:
     print(item)
 
 
+mylist= [(1,2), (3,4),(5,6),(7,8)]
+
+for (a,b) in mylist:
+    print(a)
+    print(b)
+
+
+mylist= [(1,2), (3,4),(5,6),(7,8)]
+for a,b in mylist:
+    print(a)
+    print(b)
+
+mylist= [(1,2), (3,4),(5,6),(7,8)]
+
+for a,b in mylist:
+    print(b)
+
+
+mylist= [(1,2), (3,4,5,6),(7,8)]
+
+for item in mylist:
+    print(item)
+
+
+d = {'k1' : 1, 'k2': 2, 'k3': 3}
+
+for item in d: 
+    print(item)
+
+
+d = {'k1' : 1, 'k2': 2, 'k3': 3}
+
+for item in d.items(): 
+    print(item)
+
+
+
+d = {'k1' : 1, 'k2': 2, 'k3': 3}
+
+for key,value in d.items(): 
+    print(value)
+
+d = {'k1' : 1, 'k2': 2, 'k3': 3}
+
+for values in d.values(): 
+    print(value)
+
+
+
+
+
+
+
+
