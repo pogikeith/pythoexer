@@ -88,3 +88,22 @@ for _ in zip(mylist1,mylist2,mylist3):
 
 
 
+
+mylist1 = [1,2,3,4,5,6]
+mylist2 = ['a','b','c']
+mylist3 = [100,200,300]
+list(zip(mylist1, mylist2))
+
+
+
+
+mylist1 = [1,2,3,4,5,6]
+mylist2 = ['a','b','c']
+mylist3 = [100,200,300]
+for a,b,c in zip(mylist1,mylist2,mylist3):
+    print(b)
+
+
+
+
+
