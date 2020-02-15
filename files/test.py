@@ -43,6 +43,13 @@ for num in range(1,101):
         print(num)
 
 
+def myfunc(a):
+    if a == True: 
+        return 'Inside'
+    elif a == False: 
+        return 'Outside'
+
+
 
 
 
