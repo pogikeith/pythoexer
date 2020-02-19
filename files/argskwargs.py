@@ -1,5 +1,10 @@
-def myfunc(a,b): 
-    return sum((a,b)) * .05
-    myfunc(40,60)
+
+def myfunc(**kwargs):
+  if 'fruit' in kwargs:
+    print('my fruit is {}'.format(kwargs['fruit']))
+  else:
+    print('no fruit')
+myfunc()
    
+myfunc(fruit='apple', veggie = 'lettuce')
    

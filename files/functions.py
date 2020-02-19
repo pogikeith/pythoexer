@@ -70,3 +70,4 @@ def pig_latin(word):
         pig_word = word[1:] + first_letter + 'ay'
     return pig_word
     
+
