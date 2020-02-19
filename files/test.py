@@ -61,7 +61,11 @@ def myfunc(a):
         return 'Outside'
 
 
-
+def myfunc(x,y,z):
+    if z == True:
+        return x
+    else:
+        return y
 
 
 
