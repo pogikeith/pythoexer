@@ -21,6 +21,14 @@ stringlength=len(s)
 slicedString2=s[stringlength::-1]
 print (slicedString2) 
 
-for num in range(1,100):
+for num in range(1,10):
     if num%2 !=0:
         print(num)
+
+
+text = 'home am i'
+def master_yoda(text):
+    return ' '.join(text.split()[::-1])
+    print(master_yoda)
+
+  
