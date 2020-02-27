@@ -36,12 +36,17 @@ def has_33(nums):
 print(has_33([1,2,3,3]))
   
 
-mylist = [1,2,3,2,3,4,3,4] 
-def has_33(nums):
-    for i in range(0,len(nums)-1):
-        if nums[i: i +2] == [3,3]
-            return True 
-        return False
+# mylist = [1,2,3,2,3,4,3,4] 
+# def has_33(nums):
+#     for i in range(0,len(nums)-1):
+#         if nums[i:i+2] == [3,3]
+#             return True 
+#     return False
 
-print(has_33([1,2,3,3]))
+# print(has_33([1,2,3,3]))
   
+my_list = [1,2,3]
+print(my_list[::-1])
+
+my_list = [1,2,3]
+print(my_list)
