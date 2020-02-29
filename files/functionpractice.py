@@ -52,7 +52,7 @@ my_list = [1,2,3]
 print(my_list)
 
 
-spy_game = [1,2,4,5,9,8,7]
+
 
 def spy_game(nums):
     code = [0,0,7, 'x']
@@ -60,3 +60,5 @@ def spy_game(nums):
     for num in nums:
         if num == code[0]:
             code.pop(0)
+
+//comment
