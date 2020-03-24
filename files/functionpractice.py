@@ -61,15 +61,23 @@ print(my_list)
 #         if num == code[0]:
 #             code.pop(0)
 
-def lesser_of_two(a,b): 
-    if a%2 == 0 and b%2 == 0: 
-        if a < b: 
-            result = a 
-        else:
-            result = b
-    else:
-        if a > b:
-            result = a
-        else:
-            result = b
-    return result
+# def lesser_of_two(a,b): 
+#     if a%2 == 0 and b%2 == 0: 
+#         if a < b: 
+#             result = a 
+#         else:
+#             result = b
+#     else:
+#         if a > b:
+#             result = a
+#         else:
+#             result = b
+
+def old_mcdonald(name):
+    first_letter = name[0]
+    inbetween = name[1:3]
+    fourth_letter = name[3]
+    rest = name [4:]
+
+    return first_letter + inbetween + fourth_letter + rest
+print(old_mcdonald)
