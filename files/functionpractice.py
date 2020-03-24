@@ -54,11 +54,22 @@ print(my_list)
 
 
 
-def spy_game(nums):
-    code = [0,0,7, 'x']
+# def spy_game(nums):
+#     code = [0,0,7, 'x']
 
-    for num in nums:
-        if num == code[0]:
-            code.pop(0)
+#     for num in nums:
+#         if num == code[0]:
+#             code.pop(0)
 
-//comment
+def lesser_of_two(a,b): 
+    if a%2 == 0 and b%2 == 0: 
+        if a < b: 
+            result = a 
+        else:
+            result = b
+    else:
+        if a > b:
+            result = a
+        else:
+            result = b
+    return result

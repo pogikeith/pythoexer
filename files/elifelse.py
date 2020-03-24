@@ -38,3 +38,4 @@ elif loc == 'bank':
     print('money is cool')
 else:
     print('i dont know much')
+
