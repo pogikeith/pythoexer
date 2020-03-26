@@ -43,3 +43,20 @@ def square(num):
 print(square(3))
 
 
+
+square = lambda num: num **2
+print(square(5))
+
+
+lambda num: num **2
+print(square(5))
+
+
+list(map(lambda num: num**2, mynums))
+
+
+def check_even(num):
+    return num%2 == 0
+
+
+
