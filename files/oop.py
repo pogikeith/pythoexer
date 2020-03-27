@@ -5,8 +5,9 @@ print(type(list))
 
 
 class Dog():
-   def __init__(self, breed):
-      self.breed = breed
-my_dog = Dog(breed = 'Lab')
+   def __init__(self, mybreed):
+      self.breed = mybreed
+my_dog = Dog(mybreed = 'Labs')
+
 print(type(my_dog))
 
